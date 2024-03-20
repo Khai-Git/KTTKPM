@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from project &apos;ActiveMQDemo_maven&apos;&#x0D;&#x0A;- Original project: &apos;ActiveMQDemo_maven&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     demo01.ex01.QueueReceiver.java&#x0D;&#x0A;     ActiveMQDemo_maven/apache-logging-log4j.jar&#x0D;&#x0A;     ActiveMQDemo_maven/jaxb-api-2.3.1.jar" description="Delete elements" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;demo01.ex01{QueueReceiver.java" element2="/jaxb-api-2.3.1.jar" element3="/apache-logging-log4j.jar" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1661672622753" subPackages="false" version="1.0"/>
+</session>

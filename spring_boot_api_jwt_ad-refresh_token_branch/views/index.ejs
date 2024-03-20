@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8" />
+        <meta name= "viewport" content = "width=device-width, initial-scale=1.0" />
+        <link rel = "stylesheet" href = "index.css"/>
+    </head>
+    <body>
+        <div class = "content">
+            <form id="create" method="POST" action="/" enctype="multipart/form-data">
+                <input type="number" name="ma_sp" placeholder="ID san pham"/>
+                <input type="text" name="ten_sp" placeholder="Ten san pham"/>
+                <input type="number" name="so_luong" placeholder="So luong san pham"/>
+                <input type="submit" value="Submit"/>
+            </form>
+            <form>
+                <form id="delte" method="POST" action="/delete" enctype="multipart/form-data">
+                    <div class="title">
+                        <h5>Danh sach san pham</h5>
+                        <input type="submit" value="xoa" />
+                    </div>
+                </form>
+                <table border="1">
+                    <tr>
+                        <th>Ma SP</th>
+                        <th>Ten SP</SPan></th>
+                        <th>So luong</th>
+                        <th>Hinh anh</th>
+                        <th>Chon</th>
+                    </tr>
+                    <% for (let i = 0; i < sanPhams.length; i++)%>
+                        <tr>
+                            <td><%=sanPhams[i].ma_sp%></td>
+                            <td><%=sanPhams[i].ten_sp%></td>
+                            <td><%=sanPhams[i].so_luong%></td>
+                        </tr>
+                    <% } %>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
